@@ -1,0 +1,92 @@
+/* Seletores de Tipo e Universal */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Seletores de ID e Classes */
+#inicio {
+    background-color: #3caea3;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+#sobre {
+    background-color: #f6d55c;
+    padding: 50px;
+    text-align: center;
+}
+
+.servico {
+    padding: 50px;
+    text-align: center;
+}
+
+.servico-item {
+    margin-bottom: 30px;
+}
+
+.servico-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Seletores Descendentes e de Filhos Diretos */
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #03115f;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Seletores de Pseudo-classes e Pseudo-elementos */
+.btn:hover {
+    background-color: #555;
+}
+
+.btn:active {
+    background-color: #888;
+}
+
+/* Estilos para a primeira seção */
+section:first-of-type {
+    background-color: #f6d55c;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Seletores de Pseudo-classes e Pseudo-elementos */
+footer {
+    background-color: #3caea3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer address {
+    margin-top: 20px;
+}
+
+footer address p {
+    margin-bottom: 10px;
+}
